@@ -1,6 +1,6 @@
 // pages/blog/[id].js
 import { client } from "../../libs/client";
-import blogID from '../../src/styles/blogs/id.module.scss';
+import blogID from '../../styles/blogs/id.module.scss';
 
 export default function BlogId({ blogs }) {
   const cmsData = {
